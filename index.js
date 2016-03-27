@@ -3,7 +3,7 @@ const Q = require('q'),
   rp = require('request-promise'),
   util = require('./lib/util.js');
 
-var DeployInfo = function (userOptions) {
+const DeployInfo = function (userOptions) {
   const DEFAULT_OPTIONS = {
       retryCount: 180,
       timeBetweenRetry: 180,
